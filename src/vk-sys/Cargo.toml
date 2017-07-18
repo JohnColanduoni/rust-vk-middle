@@ -1,0 +1,6 @@
+[package]
+name = "vk-middle-sys"
+version = "0.0.0"
+
+[build-dependencies]
+bindgen = "0.26"

@@ -1,0 +1,10 @@
+[package]
+name = "vk-middle"
+version = "0.0.0"
+
+[dependencies]
+vk-middle-sys = { path = "../vk-sys" }
+
+log = "0.3"
+bitflags = "0.9"
+

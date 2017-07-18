@@ -1,0 +1,17 @@
+[package]
+name = "vk-middle-gfx"
+version = "0.1.0"
+
+[lib]
+crate-type = ['cdylib']
+
+[features]
+default = []
+
+metal = ["gfx_device_metalll"]
+
+[dependencies]
+vk-middle = { path = "../middle" }
+
+gfx_corell = { git = "https://github.com/gfx-rs/gfx" }
+gfx_device_metalll = { git = "https://github.com/gfx-rs/gfx", optional = true }
